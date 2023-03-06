@@ -4,8 +4,9 @@ html {
   }  
 .main{
     background-color: white;
-    margin-left: 75px;
-    margin-right: 75px;
+    margin: auto;
+    margin-top: 200px;
+    width: 1200px;
 }
 h1{
     font-family: 'Urbanist', sans-serif;

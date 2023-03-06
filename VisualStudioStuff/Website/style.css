@@ -29,7 +29,7 @@ h3{
     font-weight: 300;
     color: rgb(80, 131, 138);
     text-align: center;
-    font-size: 1.2em;
+    font-size: 1.7em;
     line-height: 1em;
 }
 h4{   
@@ -39,71 +39,79 @@ h4{
     font-size: 0.5em;
     line-height: 1.5em;
 }
-p{
-    column-count: 3;
-    text-align: left;
-    font-size: 0.5em;
-    line-height: 1.5em;
-}
-p::first-letter { 
-    font-family: 'Urbanist', sans-serif;
-    font-weight: 100;
-    font-size: 6em;
-  }
 .right{
-    font-family: 'Urbanist', sans-serif;
-    font-weight: 100; 
-    text-align: right;
-    font-size: 0.5em;
-    line-height: 1.5em;}
+  font-family: 'Urbanist', sans-serif;
+  font-weight: 100; 
+  text-align: right;
+  font-size: 0.5em;
+  line-height: 1.5em;
+}
+p{
+  display: inline;
+  margin:auto;
+  margin-bottom: 0%;
+  width: 30%;
+  text-align: left;
+  font-size: 1em;
+  line-height: 1.3em;
+}
+.firstLetter { 
+  font-family: 'Urbanist', sans-serif;
+  font-weight: 100;
+  font-size: 6em;
+}
 .fett{
-    font-weight: 700;
+  font-weight: 700;
 }
 .quote{
-    margin-left: 40%;
-    text-align: center;
-    width: 20%;
+  position: absolute;
+  left:38%;
+  padding-top: 10px;
+  margin:auto;
+  text-align: center;
+  width: 320px;
 }
 .dropbtn {
-    background-color: #ffffff48;
-    color: white;
-    padding: 16px;
-    font-family: 'Urbanist', sans-serif;
-    font-weight: 100;
-    text-align: left;
-    font-size: 1.8em;
-    line-height: 1.3em;
-    border: none;
-    cursor: pointer;
-  }
-  .dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9a6;
-    min-width: 400px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    font-family: 'Urbanist', sans-serif;
-    font-weight: 100;
-    text-align: left;
-    font-size: 1.8em;
-    line-height: 1.3em;
-  }
-  .dropdown-content a:hover {background-color: #f1f1f1a2}
-  
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-  .dropdown:hover .dropbtn {
-    background-color: #ffffff48;
-  }
+  background-color: #ffffff48;
+  color: white;
+  padding: 16px;
+  font-family: 'Urbanist', sans-serif;
+  font-weight: 100;
+  text-align: left;
+  font-size: 1.8em;
+  line-height: 1.3em;
+  border: none;
+  cursor: pointer;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9a6;
+  min-width: 400px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-family: 'Urbanist', sans-serif;
+ font-weight: 100;
+  text-align: left;
+  font-size: 1.8em;
+  line-height: 1.3em;
+}
+.dropdown-content a:hover {
+  background-color: #f1f1f1a2
+} 
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown:hover .dropbtn {
+  background-color: #ffffff48;
+}

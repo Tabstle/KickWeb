@@ -61,7 +61,7 @@ p{
 .quote{
   position: absolute;
   width: 320px;
-  padding-left: 127px;
+  padding-left: 125px;
 }
 .center {
   display: block;
@@ -70,7 +70,7 @@ p{
   width: 50%;
 }
 .dropbtn {
-  background-color: #ffffff48;
+  background-color: #afafafc0;
   color: white;
   padding: 16px;
   font-family: 'Urbanist', sans-serif;
@@ -99,7 +99,7 @@ p{
   text-decoration: none;
   display: block;
   font-family: 'Urbanist', sans-serif;
- font-weight: 100;
+  font-weight: 100;
   text-align: left;
   font-size: 1.8em;
   line-height: 1.3em;
@@ -112,4 +112,25 @@ p{
 }
 .dropdown:hover .dropbtn {
   background-color: #ffffff48;
+}
+.button {
+  text-decoration: none;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.buttonBottom {
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+}
+.buttonBottom:hover {
+  background-color: #555555;
+  color: white;
 }

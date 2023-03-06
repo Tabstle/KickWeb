@@ -1,0 +1,17 @@
+p{
+    width: 40%;
+    border: 1px solid salmon;
+}
+span{
+    border: 1px solid black;
+    border: 10px solid green;
+    padding: 10px;
+    margin:10px;
+}
+div {
+    background-color: lightgrey;
+    width: 300px;
+    border: 100px solid green;
+    padding: 60px;
+    margin:100px;
+  }

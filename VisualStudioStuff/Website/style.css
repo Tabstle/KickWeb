@@ -1,49 +1,44 @@
 html { 
-    background: url("Images/TitlePage.png") no-repeat center fixed;
-    background-size: cover;
+  background: url("Images/TitlePage.png") no-repeat center fixed;
+  background-size: cover;
   }  
 .main{
-    background-color: white;
-    margin: auto;
-    margin-top: 200px;
-    width: 1200px;
+  background-color: white;
+  margin: auto;
+  margin-top: 200px;
+  width: 1200px;
 }
 h1{
-    font-family: 'Urbanist', sans-serif;
-    letter-spacing: 5px;
-    font-weight: 100;
-    text-align: left;
-    font-size: 6em;
-    line-height: 1em;
+  font-family: 'Urbanist', sans-serif;
+  letter-spacing: 5px;
+  font-weight: 100;
+  text-align: left;
+  font-size: 6em;
+  line-height: 1em;
 }
 h2{
-    font-family: 'Urbanist', sans-serif;
-    font-weight: 100;
-    text-align: left;
-    font-size: 1.8em;
-    line-height: 1.3em;
+  font-family: 'Urbanist', sans-serif;
+  font-weight: 100;
+  text-align: left;
+  font-size: 1.8em;
+  line-height: 1.3em;
 }
 h3{
-    font-family: 'Cormorant Garamond', serif;
-    font-style: italic;
-    font-weight: 300;
-    color: rgb(80, 131, 138);
-    text-align: center;
-    font-size: 1.7em;
-    line-height: 1em;
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-weight: 300;
+  color: rgb(80, 131, 138);
+  text-align: center;
+  font-size: 1.7em;
+  line-height: 1em;
 }
 h4{   
-    font-family: 'Urbanist', sans-serif;
-    font-weight: 100; 
-    text-align: left;
-    font-size: 0.5em;
-    line-height: 1.5em;
-}
-.right{
+  display: relative;
+  padding-left: 1.5%;
   font-family: 'Urbanist', sans-serif;
   font-weight: 100; 
-  text-align: right;
-  font-size: 0.5em;
+  text-align: left;
+  font-size: 1em;
   line-height: 1.5em;
 }
 p{

@@ -1,0 +1,44 @@
+.parentcontainer{
+    display:flex; 
+    flex-direction: row;
+    /* Positional alignment */
+    justify-content: center; /* Pack items around the center */
+    /* justify-content: start; /* Pack items from the start */
+    /* justify-content: end; /* Pack items from the end */
+    /* justify-content: space-between; /* Raum gleichmässig zwischen den Items verteilen. Das erste hat links keinen Raum, das letze hat rechts keinen */
+    /* justify-content: space-around; /* Raum gleichmässig zwischen den Items verteilen.*/
+    
+    /* Positional alignment */
+    align-items: center; /* Pack items around the center */
+    /*align-items: start; /* Pack items from the start */
+    /*align-items: end; /* Pack items from the end */
+    
+    /* wrap? 
+    flex-wrap: /* nowrap (default) */
+    /* wrap */
+    /* wrap-reverse */ 
+    border: 1px dotted red;
+    height: 100vh;
+}
+.child{
+
+    border:1px dotted blue;
+    padding:1rem;
+    margin:1rem;
+    flex-basis: 10px;
+    flex-grow: 0;
+}
+.child--featured{
+    /* override align-items */
+    align-self:
+        stretch
+        /* flex-start */
+        /* flex-end */
+        /* center */
+        /* baseline */;
+
+    /* how much should the div grow? */
+
+    background-color: aqua;
+    flex-grow: 3;
+}

@@ -4,25 +4,29 @@ html {
   }  
 .main{
   background-color: white;
-  margin: auto;
+  margin: none;
+  border: none;
   margin-top: 200px;
-  width: 90%;
+  max-width: 1000px;
 }
+  /*Titel*/
 h1{
   font-family: 'Urbanist', sans-serif;
   letter-spacing: 5px;
   font-weight: 100;
   text-align: left;
-  font-size: 6em;
+  font-size: 5em;
   line-height: 1em;
 }
+  /*Untertitel*/
 h2{
   font-family: 'Urbanist', sans-serif;
   font-weight: 100;
   text-align: left;
-  font-size: 1.7em;
+  font-size: 1.4em;
   line-height: 1.3em;
 }
+  /*Zitate*/
 h3{
   font-family: 'Cormorant Garamond', serif;
   font-style: italic;
@@ -31,15 +35,28 @@ h3{
   text-align: center;
   font-size: 1.7em;
   line-height: 1em;
+  position: absolute;
+  width: 320px;
+  padding-left: 125px;
 }
+  /*Bildbeschreibung*/
 h4{   
   display: relative;
   padding-left: 1.5%;
   font-family: 'Urbanist', sans-serif;
-  font-weight: 100; 
+  font-weight: 700; 
   text-align: left;
   font-size: 1em;
   line-height: 1.5em;
+}
+  /*FEATURE Text*/
+h5{
+  font-family: 'Urbanist', sans-serif;
+  font-weight: 100;
+  text-align: center;
+  font-size: 2em;
+  line-height: 0em;
+  color: white  ;
 }
 p{
   display: inline;
@@ -55,19 +72,21 @@ p{
   font-weight: 100;
   font-size: 6em;
 }
-.fett{
-  font-weight: 700;
-}
-.quote{
-  position: absolute;
-  width: 320px;
-  padding-left: 125px;
-}
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+}
+.blueFEATURE{
+  position: relative;
+  top: 200px;
+  left: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #5c8397; 
+  width: 200px; 
+  height: 800px;
 }
 .dropbtn {
   background-color: #afafafc0;

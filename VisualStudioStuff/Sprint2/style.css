@@ -17,6 +17,7 @@ h1{
   text-align: left;
   font-size: 5em;
   line-height: 1em;
+  box-sizing: border-box;
 }
   /*Untertitel*/
 h2{
@@ -25,6 +26,8 @@ h2{
   text-align: left;
   font-size: 1.4em;
   line-height: 1.3em;
+  max-width: 720px;
+  box-sizing: border-box;
 }
   /*Zitate*/
 h3{
@@ -38,6 +41,7 @@ h3{
   position: absolute;
   width: 320px;
   padding-left: 125px;
+  box-sizing: border-box;
 }
   /*Bildbeschreibung*/
 h4{   
@@ -48,6 +52,7 @@ h4{
   text-align: left;
   font-size: 1em;
   line-height: 1.5em;
+  box-sizing: border-box;
 }
   /*FEATURE Text*/
 h5{
@@ -55,8 +60,9 @@ h5{
   font-weight: 100;
   text-align: center;
   font-size: 2em;
-  line-height: 0em;
+  margin-top: 10px;
   color: white  ;
+  box-sizing: border-box;
 }
 p{
   display: inline;
@@ -66,6 +72,7 @@ p{
   text-align: left;
   font-size: 1em;
   line-height: 1.3em;
+  box-sizing: border-box;
 }
 .firstLetter { 
   font-family: 'Urbanist', sans-serif;
@@ -78,6 +85,7 @@ p{
   margin-right: auto;
 }
 .blueFEATURE{
+  box-sizing: border-box;
   position: relative;
   top: 200px;
   left: 5%;
@@ -105,6 +113,7 @@ p{
   display: inline-block;
 }
 .dropdown-content {
+  box-sizing: border-box;
   display: none;
   position: absolute;
   background-color: #f9f9f9a6;

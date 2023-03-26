@@ -52,6 +52,7 @@ h4{
   line-height: 1.5em;
   margin-top: 10px;
   box-sizing: border-box;
+  padding-right: 1.5%;
   float: right;
 }
   /*FEATURE Text*/
@@ -97,6 +98,12 @@ p{
   gap: 10px;
   width: 90%;
 }
+.grid3{
+  display: grid;
+  grid-template-columns: repeat(12, 1fr) ;
+  gap: 10px;
+  width: 90%;
+}
 .overlap{
   z-index: 2;
 }
@@ -109,11 +116,14 @@ p{
 .left{
   grid-column: 1/5;
 }
+.leftpic{
+  grid-column: 1/11;
+}
 .halfleft{
   grid-column: 2/7;
 }
 .middle{
-  grid-column: 6 / 13;
+  grid-column: 7 / 12;
 }
 .right{
   grid-column: 3/-1;
@@ -150,7 +160,7 @@ p{
   color: white;
   padding: 40px;
   max-width: 400px;
-  top: 10%;
+  bottom: -50%;
 }
 
 .quoteR{
@@ -160,7 +170,8 @@ p{
 }
 .quoteL{
   position: relative;
-  grid-column: 1/5;
+  grid-column: 1/6;
+  grid-row: 2/3;
 }
 .dropbtn {
   background-color: #afafafc0;
@@ -207,14 +218,15 @@ p{
 .dropdown:hover .dropbtn {
   background-color: #ffffff48;
 }
-.button {
-  text-decoration: none;
+a {
   border: none;
   color: white;
+  font-family: 'Urbanist', sans-serif;
+  font-weight: 100;
+  font-size: 1.7em;
   padding: 16px 32px;
   text-align: center;
   text-decoration: none;
-  font-size: 16px;
   transition-duration: 0.4s;
   cursor: pointer;
 }
@@ -224,7 +236,7 @@ p{
   color: black;
   border: 2px solid #555555;
 }
-.buttonBottom:hover {
+a:hover, a:active {
   background-color: #555555;
   color: white;
 }

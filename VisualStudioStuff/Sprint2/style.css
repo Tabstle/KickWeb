@@ -51,7 +51,9 @@ h4{
   text-align: left;
   font-size: 1em;
   line-height: 1.5em;
+  margin-top: 10px;
   box-sizing: border-box;
+  float: right;
 }
   /*FEATURE Text*/
 h5{
@@ -68,11 +70,11 @@ p{
   display: inline;
   margin:auto;
   margin-bottom: 0%;
-  width: 30%;
   text-align: left;
   font-size: 1em;
   line-height: 1.3em;
   box-sizing: border-box;
+  max-width: 500px;
 }
 .firstLetter { 
   font-family: 'Urbanist', sans-serif;
@@ -82,34 +84,45 @@ p{
 
   /*Grid Stuff*/
 
-.grid{
+.grid1{
   display: grid;
   grid-template-columns: repeat(12, 1fr) ;
   grid-template-rows: repeat(12, 1fr);
   gap: 10px;
   width: 90%;
-  height: 2000px;
+}
+.grid2{
+  display: grid;
+  grid-template-columns: repeat(12, 1fr) ;
+  gap: 10px;
+  width: 90%;
 }
 .overlap{
   z-index: 2;
 }
+
+  /*Horizontal*/
 .title{
-  grid-column: 5/13;
-  grid-row: 4/5;
+  grid-column: 5/12;
+  grid-row: 4/6;
 }
 .left{
   grid-column: 1/5;
-  grid-row: 3/11;
 }
 .halfleft{
-  grid-column: 2/9;
+  grid-column: 2/7;
 }
 .middle{
   grid-column: 6 / 13;
 }
 .right{
   grid-column: 3/-1;
-  grid-row: 5/9;
+  grid-row: 6/11;
+}
+
+  /*Vertikal*/
+.long{
+  grid-row: 3/12;
 }
 
 .center {

@@ -134,6 +134,9 @@ p{
 .long{
   grid-row: 3/12;
 }
+@media screen and (max-width: ){
+  
+}
 .text{
   grid-row: 1/3;
 }

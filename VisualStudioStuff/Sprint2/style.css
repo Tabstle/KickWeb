@@ -160,18 +160,20 @@ p{
   color: white;
   padding: 40px;
   max-width: 400px;
-  bottom: -50%;
+  
 }
 
 .quoteR{
   position: relative;
   grid-column: 8/-1;
   grid-row: 2/3;
+  top: 80%;
 }
 .quoteL{
   position: relative;
   grid-column: 1/6;
   grid-row: 2/3;
+  top: -60%;
 }
 .dropbtn {
   background-color: #afafafc0;

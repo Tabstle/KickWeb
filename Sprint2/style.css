@@ -1,6 +1,6 @@
 @media screen and (min-width:700px ){
   html { 
-    background: url("Images/TitlePage.png") no-repeat center fixed;
+    background: url("/Images/TitlePage.png") no-repeat center fixed;
     background-size: cover;
     }  
 }

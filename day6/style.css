@@ -1,0 +1,23 @@
+h1{
+    font-family: 'Urbanist', sans-serif;
+    letter-spacing: 5px;
+    font-weight: 700;
+    font-size: 50vh;
+    box-sizing: border-box;
+    margin-bottom: 1vh;
+    mix-blend-mode: multiply;
+    position: absolute;
+    opacity: .8;
+}
+
+.red{
+    color: magenta;
+    transform: translate(-10%);
+}
+.green{
+    color: yellow;
+}
+.blue{
+    color: cyan;
+    transform: translate(10%);
+}

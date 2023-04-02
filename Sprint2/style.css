@@ -88,6 +88,7 @@ p{
   line-height: 1.3em;
   box-sizing: border-box;
   max-width: 500px;
+  
 }
 .firstLetter { 
   font-family: 'Urbanist', sans-serif;
@@ -136,7 +137,6 @@ p{
   .grid2{
     display: grid;
     grid-template-columns: repeat(12, 1fr) ;
-    grid-template-rows: repeat(2, 1fr);
     gap: 10px;
     width: 90%;
   }
@@ -268,11 +268,14 @@ p{
 }
 @media screen and (min-width: 700px) {
   .text{
-    grid-row: 1/3;
+    grid-row: 1/2;
     column-count: 1;
   }
 }
-
+.text{
+  border-left: solid black 2px;
+  padding: 7px;
+}
 .center {
   margin-left: auto;
   margin-right: auto;
@@ -296,30 +299,39 @@ p{
     margin-top: 10vh;
   }
 }
-
-  .quote{
-    box-sizing: border-box;
-    color: white;
-    padding: 40px;
-    max-width: 400px;
-  }
-
-
-@media screen and (min-width: 700px) {
-  .quoteR{
-    position: relative;
-    grid-column: 8/-1;
-    grid-row: 2/3;
-    top: 80%;
-  }
+.quote{
+  box-sizing: border-box;
+  color: white;
+  padding: 40px;
+  max-width: 400px;
 }
 
+
 @media screen and (min-width: 700px) {
-  .quoteL{
+  .rightQ{
+    position: relative;
+    grid-column: 8/-1;
+
+  }
+}
+@media screen and (min-width: 700px) {
+  .leftQ{
     position: relative;
     grid-column: 1/6;
-    grid-row: 2/3;
-    top: -60%;
+
+  }
+}
+@media screen and (min-width: 700px) {
+  .top{
+
+    top: 40%;
+  }
+}
+@media screen and (min-width: 700px) {
+  .bottom{
+    margin-top: auto;
+    margin-bottom: auto;
+    bottom: -60%;
   }
 }
 .blue{

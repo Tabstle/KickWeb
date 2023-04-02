@@ -1,0 +1,28 @@
+h1{
+    font-family: 'Urbanist', sans-serif;
+    letter-spacing: 5px;
+    font-weight: 700;
+    font-size: 30vh;
+    box-sizing: border-box;
+    mix-blend-mode: multiply;
+    text-align: center;
+    margin: auto;
+    opacity: .8;
+}
+
+.group{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.letter{
+    color: red;
+    transition: all 2s;   
+}
+
+  /* so sprichst du das erste element mit der Klasse .letter innerhalb von .group an, falls der Mauszeiger über .group schwebt */
+.group:hover .letter:nth-of-type(1) {
+    color: blue;
+    transform: rotate(180deg);
+}

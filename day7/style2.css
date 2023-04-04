@@ -1,0 +1,48 @@
+h2{
+    box-sizing: border-box;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 100;
+    letter-spacing: 5px;
+    box-sizing: border-box;
+    color: black;
+    margin-bottom: 1vh;
+  }
+  main {
+    margin: 1000px auto;
+  }
+
+  .lineUp {
+    display: block;
+    margin: 0 auto;
+    animation: 2s anim-lineUp ease-out 1 forwards;
+  }
+  @keyframes anim-lineUp {
+    0% {
+      opacity: 0;
+      transform: translateY(80%);
+    }
+    20% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+
+  .lineUp:after {
+    position: fixed;
+    content: 'Keep scrolling!';
+    left: 50%;
+    top: 50%;
+    opacity: 0;
+    transform: translate(-50%,-50%);
+    transition: opacity .4s;
+  }
+  .lineUp:not(.animation):after {
+    opacity: 1;
+  }

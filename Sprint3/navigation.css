@@ -17,7 +17,7 @@ html {
 
 .content{
   position: relative;
-  bottom: 1vw;
+  height: 1vh;
 }
 .content h1 {
   color: #fff;

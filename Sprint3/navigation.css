@@ -12,7 +12,8 @@ html {
   letter-spacing: 5px;
   box-sizing: border-box;
   color: white;
-  margin-bottom: 1vh;
+  margin-top: 0.5vh;
+  margin-bottom: 0.5vh;
 }
 
  @media screen and (max-width:509px ){
@@ -112,7 +113,6 @@ html {
   }
   .content h1 {
     color: #fff;
-    position: absolute;
     font-weight: 700;
   }
   
@@ -122,6 +122,8 @@ html {
   }
   
   .content h1:nth-child(2) {
+    position: absolute;
+    top: -0.6vh;
     color: #ffffff;
     animation: animate 4s ease-in-out infinite;
   }
@@ -162,6 +164,7 @@ html {
 
 @media screen and (max-width:509px ) {
     .frame{
+      margin-top: 5vh;
         margin-left: auto;
         margin-right: auto;
     }

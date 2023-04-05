@@ -14,7 +14,8 @@ h2{
   .lineUp {
     display: block;
     margin: 0 auto;
-    animation: 2s anim-lineUp ease-out 1 forwards;
+    animation: 2s anim-lineUp ease-out infinite forwards;
+    animation-play-state: paused;
   }
   @keyframes anim-lineUp {
     0% {

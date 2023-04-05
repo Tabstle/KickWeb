@@ -1,0 +1,46 @@
+h1{
+  font-size: 40px;
+  line-height: 1.2;
+  margin: 0;
+  font-family: 'Urbanist', sans-serif;
+  font-weight: 100;
+  color: black;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  position: relative;
+  letter-spacing: 0.04em;
+}
+
+.section {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  padding: 0;
+  text-align: center;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bg1 {
+  background-color: #ccc;
+}
+.bg2 {
+  background-color: #333;
+}
+h1 {
+  font-size: 40px;
+  line-height: 1.2;
+  margin: 0;
+}
+.revealUp {
+  opacity: 0;
+  visibility: hidden;
+}
+.spacer {
+  height: 50vh;
+  background-color: #000;
+}

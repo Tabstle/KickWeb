@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            height: 300vh;
+            text-align: center;
+            font-family: sans-serif;
+            padding-top: 3.5em;
+        }
+
+        article {
+            background-color: #08f;
+            color: white;
+            padding: 2rem;
+            margin: 20vh;
+            opacity: 0.1;
+            transition: all 3s;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <article>
+        <h1>Rennen um das Weisse Haus: Auch ein ehemaliger Gouverneur fordert Trump heraus und bewirbt sich um die
+            Kandidatur der Republikaner</h1>
+        <p>Heisst das Duell im November 2024 wieder Joe Biden gegen Donald Trump? Das ist gut möglich, aber noch
+            keineswegs sicher. Ein Überblick über das Bewerberfeld für die nächste Präsidentschaftswahl.</p>
+    </article>
+
+    <article>
+        <h1>Sanna Marin brachte Finnland in die Nato und Glamour in die finnische Politik – nun hofft sie auf die
+            politische Dividende</h1>
+        <p>Der radikale Kurswechsel in der finnischen Sicherheitspolitik hat die Unterschiede zwischen links und rechts
+            eingeebnet. Die Regierungschefin erhielt für ihre Entscheidung viel Zuspruch – und könnte nach der
+            Parlamentswahl am heutigen Sonntag dennoch auf neue Bündnispartner angewiesen sein.</p>
+    </article>
+
+    <article>
+        <h1>Viel Schrott und drei Rennabbrüche: Zum Schluss eskaliert der Grand Prix von Australien</h1>
+        <p>
+            Der Weltmeister Max Verstappen gewinnt den GP in Melbourne. Das Rennen endet im Chaos – die Formel 1 tut
+            sich aber mit dem Wunsch, Spannung bis zum Schluss zu generieren, keinen Gefallen.</p>
+    </article>
+
+    <script>
+
+
+
+        let observer = new IntersectionObserver(myObserverCallback, { threshold: [0.9] });
+        /*diese Zahl gibt an, bei wieviel Sichtbarkeit des beobachteten Elements das Attribut isIntersecting true sein wird (0 - 1) */
+        /* https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API#thresholds */
+       
+
+        // Declares what to observe, and observes its properties.
+        const ElList = document.querySelectorAll("article");
+        ElList.forEach((el) => {
+            observer.observe(el);
+        });
+
+        function myObserverCallback(entries) {
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = 1;
+                } else {
+                    entry.target.style.opacity = 0.1;
+                }
+            })
+
+
+
+        }
+    </script>
+</body>
+
+</html>

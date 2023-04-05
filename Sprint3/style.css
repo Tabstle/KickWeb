@@ -304,6 +304,8 @@ p{
   color: white;
   padding: 40px;
   max-width: 400px;
+  opacity: 1;
+  transition: all 2s;
 }
 
 

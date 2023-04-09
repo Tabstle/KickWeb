@@ -280,17 +280,7 @@ p{
   margin-left: auto;
   margin-right: auto;
 }
-.box{
-  z-index: 1;
-  box-sizing: border-box;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between; 
-  width: 100%;
-  height: 100%;
-  
-}
+
 
 @media screen and (max-width:700px){
   .quote{
@@ -367,15 +357,59 @@ a:hover, a:active {
 
   /*Animation Stuff*/
 
-  .widen {
-    
+.box{
+  z-index: 1;
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+  width: 0%;
+  height: 0%;
+  transform-origin: center;
+  animation: 1s anim-box ease-out 1s forwards;
+}
+@keyframes anim-box {
+  0% {
+    width: 1%;
+    height: 0%;
   }
+  50% {
+    width: 1%;
+    height: 100%;
+  }
+  100% {
+    width: 100%;
+    height: 100%;
+  }
+}
 
-  .lineUp {
+.word{
+  display: flex; 
+  justify-content: space-evenly;
+  opacity: 0;
+  width: 0%;
+  animation: 1s anim-word ease-out 1s forwards;
+}
+@keyframes anim-word {
+  0% {
     opacity: 0;
-    margin: 0 auto;
-    animation: 2s anim-lineUp ease-out 2s forwards;
+    width: 0%;
   }
+  50%{
+    opacity:0;
+  }
+  100% {
+    opacity: 1;
+    width: 100%;
+  }
+}
+
+.lineUp {
+  opacity: 0;
+  margin: 0 auto;
+   animation: 3s anim-lineUp ease-out 1.5s forwards;
+}
   @keyframes anim-lineUp {
     0% {
       opacity: 0;

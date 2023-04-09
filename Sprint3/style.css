@@ -367,7 +367,7 @@ a:hover, a:active {
   width: 0%;
   height: 0%;
   transform-origin: center;
-  animation: 1s anim-box ease-out 1s forwards;
+  animation: 1s anim-box ease-in-out 1s forwards;
 }
 @keyframes anim-box {
   0% {
@@ -389,7 +389,7 @@ a:hover, a:active {
   justify-content: space-evenly;
   opacity: 0;
   width: 0%;
-  animation: 1s anim-word ease-out 1s forwards;
+  animation: 1s anim-word ease-in-out 1s forwards;
 }
 @keyframes anim-word {
   0% {

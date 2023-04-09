@@ -304,10 +304,7 @@ p{
   color: white;
   padding: 40px;
   max-width: 400px;
-  opacity: 1;
-  transition: all 2s;
 }
-
 
 @media screen and (min-width: 700px) {
   .rightQ{
@@ -370,9 +367,14 @@ a:hover, a:active {
 
   /*Animation Stuff*/
 
+  .widen {
+    
+  }
+
   .lineUp {
+    opacity: 0;
     margin: 0 auto;
-    animation: 2s anim-lineUp ease-out 1 none;
+    animation: 2s anim-lineUp ease-out 2s forwards;
   }
   @keyframes anim-lineUp {
     0% {

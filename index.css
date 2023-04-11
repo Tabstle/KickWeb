@@ -222,7 +222,7 @@ p{
 }
 @media screen and (max-width:509px) {
   .dropdown-content {
-    max-width: 150%;
+    width: 150%;
   }
 }
 @media screen and (min-width:509px) {

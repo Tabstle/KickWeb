@@ -178,6 +178,7 @@ p{
 .dropbtn {
   background-color: #afafafc0;
   color: white;
+  
   font-family: 'Urbanist', sans-serif;
   font-weight: 100;
   padding: 2.5vh 12px;
@@ -187,16 +188,16 @@ p{
 }
 @media screen and (max-width:509px) {
   .dropbtn{
-    width: 30vw;
-    padding: 4.5vw 12px;
-    font-size: 4.5vw;
-    line-height: 4.5vw;
+    width: 20vw;
+    padding: 4vw 6vw;
+    font-size: 3.5vw;
+    line-height: 3.5vw;
   }
 }
 @media screen and (min-width:509px) {
   .dropbtn{
     width: 15vh;
-    padding: 2.5vh 12px;
+    padding: 2.5vh 4vh;
     font-size: 2.5vh;
     line-height: 2.5vh;
   }
@@ -242,12 +243,14 @@ p{
 }
 @media screen and (max-width:509px) {
   .dropdown-content a{
-    font-size: 4.5vw;
-    line-height: 4.5vw;
+    padding: 3vw;
+    font-size: 3.5vw;
+    line-height: 3.5vw;
   }
 }
 @media screen and (min-width:509px) {
   .dropdown-content a{
+    padding: 1.5vh;
     font-size: 2.5vh;
     line-height: 2.5vh;
   }

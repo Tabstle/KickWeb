@@ -159,9 +159,6 @@ html {
     }
   }
   
-  
-  
-
 @media screen and (max-width:509px ) {
     .frame{
       margin-top: 5vh;
@@ -176,6 +173,7 @@ html {
  }
 
 
+ 
   .dropbtn {
     background-color: #afafafc0;
     color: white;

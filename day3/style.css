@@ -2,10 +2,10 @@
     display:flex; 
     flex-direction: row;
     /* Positional alignment */
-    justify-content: center; /* Pack items around the center */
+    /*justify-content: center; /* Pack items around the center */
     /* justify-content: start; /* Pack items from the start */
     /* justify-content: end; /* Pack items from the end */
-    /* justify-content: space-between; /* Raum gleichmässig zwischen den Items verteilen. Das erste hat links keinen Raum, das letze hat rechts keinen */
+    justify-content: space-between; /* Raum gleichmässig zwischen den Items verteilen. Das erste hat links keinen Raum, das letze hat rechts keinen */
     /* justify-content: space-around; /* Raum gleichmässig zwischen den Items verteilen.*/
     
     /* Positional alignment */

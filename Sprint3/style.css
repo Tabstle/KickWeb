@@ -367,7 +367,7 @@ a:hover, a:active {
   width: 0%;
   height: 0%;
   transform-origin: center;
-  animation: 1s anim-box ease-out 1s forwards;
+  animation: 1.5s anim-box ease-in-out forwards;
 }
 @keyframes anim-box {
   0% {
@@ -389,7 +389,7 @@ a:hover, a:active {
   justify-content: space-evenly;
   opacity: 0;
   width: 0%;
-  animation: 1s anim-word ease-in-out 1s forwards;
+  animation: 1.5s anim-word ease-in-out forwards;
 }
 @keyframes anim-word {
   0% {
@@ -408,7 +408,7 @@ a:hover, a:active {
 .lineUp {
   opacity: 0;
   margin: 0 auto;
-   animation: 3s anim-lineUp ease-out 1.5s forwards;
+   animation: 3s anim-lineUp ease-out 1s forwards;
 }
   @keyframes anim-lineUp {
     0% {

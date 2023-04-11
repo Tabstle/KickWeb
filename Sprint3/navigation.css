@@ -41,15 +41,15 @@ html {
 @media screen and (max-width:509px) {
   h2{
     margin-left: 5vw;
-    font-size: 3vw;
-    line-height: 3vw;
+    font-size: 4vw;
+    line-height: 4vw;
   }
 }
 @media screen and (min-width:509px) {
   h2{
     text-align: left;
-    font-size: 2.5vh;
-    line-height: 2.5vh;
+    font-size: 3vh;
+    line-height: 3vh;
   }
 }
 
@@ -175,42 +175,7 @@ html {
     }
  }
 
-.dropbtn {
-    background-color: #afafafc0;
-    color: white;
-    padding: 16px;
-    font-family: 'Urbanist', sans-serif;
-    font-weight: 100;
-    text-align: left;
-    border: none;
-    cursor: pointer;
-  }
-  @media screen and (max-width:509px) {
-    .dropbtn{
-      font-size: 4.5vw;
-      line-height: 4.5vw;
-    }
-  }
-  @media screen and (min-width:509px) {
-    .dropbtn{
-      font-size: 2.5vh;
-      line-height: 2.5vh;
-    }
-  }
 
-  .dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  @media screen and (max-width:509px) {
-    .menu {
-      display: flex;
-      justify-content: space-around;
-      margin-left: auto;
-      margin-right: auto;
-    }
-  }
-  
   .dropbtn {
     background-color: #afafafc0;
     color: white;
@@ -223,16 +188,14 @@ html {
   }
   @media screen and (max-width:509px) {
     .dropbtn{
-      width: 30vw;
-      padding: 4.5vw 12px;
-      font-size: 4.5vw;
-      line-height: 4.5vw;
+      padding: 4vw 6vw;
+      font-size: 3.5vw;
+      line-height: 3.5vw;
     }
   }
   @media screen and (min-width:509px) {
     .dropbtn{
-      width: 15vh;
-      padding: 2.5vh 12px;
+      padding: 2.5vh 4vh;
       font-size: 2.5vh;
       line-height: 2.5vh;
     }
@@ -278,12 +241,14 @@ html {
   }
   @media screen and (max-width:509px) {
     .dropdown-content a{
-      font-size: 4.5vw;
-      line-height: 4.5vw;
+      padding: 3vw;
+      font-size: 3.5vw;
+      line-height: 3.5vw;
     }
   }
   @media screen and (min-width:509px) {
     .dropdown-content a{
+      padding: 2vh;
       font-size: 2.5vh;
       line-height: 2.5vh;
     }

@@ -38,10 +38,8 @@ document.addEventListener("DOMContentLoaded", function() {
       markers: false,
       onEnter: function() { animateFrom(elem) }, 
       onEnterBack: function() { animateFrom(elem) },
-      onLeave: function() { hide(elem) }, // assure that the element is hidden when scrolled into view
-      
+      onLeave: function() { hide(elem) },
       onLeaveBack: function () { hide(elem) }
-
     });
   });
 });
